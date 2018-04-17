@@ -1,15 +1,111 @@
 <!DOCTYPE html>
 <html>
-  <title>Graphics</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--<link rel="stylesheet" href="css/w3.css">-->
+<head>
 
-  <head>
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Graphics</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.css">
     <link rel="stylesheet" href="stylesheets/normalize.css">
-  </head>
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/vendor.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+
+   <!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
   <body>
+      <header class="short-header">
+
+   	<div class="gradient-block"></div>
+
+   	<div class="row header-content">
+
+   		<div class="logo">
+	         <a href="index.html">codeForFashion()</a>
+	      </div>
+
+	   	<nav id="main-nav-wrap">
+				<ul class="main-navigation sf-menu">
+					<li><a href="index.html" title="">Home</a></li>
+					<li class="has-children current">
+                        <a href="labs.html" title="">Projects</a>
+                        <ul class="sub-menu">
+                            <li class="current"><a href="graphics.html">Graphics</a></li>
+                            <li><a href="apps.html">Apps</a></li>
+                            <li><a href="labs.html">Creative Labs</a></li>
+                            <li><a href="podcasts.html">Mixtapes</a></li>
+			            </ul>
+					</li>
+					<li class="has-children">
+						<a href="single-standard.html" title="">Apparel</a>
+						<ul class="sub-menu">
+			            <li><a href="men.html">Men</a></li>
+			            <li><a href="women.html">Women</a></li>
+			            <li><a href="kids.html">Kids</a></li>
+			            <li><a href="extras.html">Extras</a></li>
+			         </ul>
+					</li>
+					<li><a href="styles.html" title="">Looks</a></li>
+					<li><a href="about.html" title="">About</a></li>
+					<li><a href="contact.html" title="">Contact</a></li>
+				</ul>
+			</nav> <!-- end main-nav-wrap -->
+
+			<div class="search-wrap">
+
+				<form role="search" method="get" class="search-form" action="#">
+					<label>
+						<span class="hide-content">Search for:</span>
+						<input type="search" class="search-field" placeholder="Type Your Keywords" value="" name="s" title="Search for:" autocomplete="off">
+					</label>
+					<input type="submit" class="search-submit" value="Search">
+				</form>
+
+				<a href="#" id="close-search" class="close-btn">Close</a>
+
+			</div> <!-- end search wrap -->
+
+			<div class="triggers">
+				<a class="search-trigger" href="#"><i class="fa fa-search"></i></a>
+				<a class="menu-toggle" href="#"><span>Menu</span></a>
+			</div> <!-- end triggers -->
+
+   	</div>
+
+   </header> <!-- end header -->
+      
+   <div id="preloader">
+    	<div id="loader"></div>
+   </div>
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/jquery.appear.js"></script>
+   <script src="js/main.js"></script>
+
   </body>
 </html>
