@@ -1,0 +1,84 @@
+html {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+}
+header {
+	background:white;
+	margin: 0;
+}
+header h1 {
+	font-size:72px;
+	font-family:'Georgia', serif;
+	margin-bottom:1px;
+}
+header h2 {
+	margin-top:1px;
+}
+body {
+	font-family:'Open Sans', sans-serif;
+	margin: 0;
+}
+main {
+	clear:both;
+}
+footer {
+	text-align:center;
+	padding:20px;
+}
+section h1 {
+	font-size:36px;
+	font-family:'Georgia', serif;
+}
+section h2 {
+	font-size:26px;
+}
+
+.work {
+	background:#FFFFFF;/*#F0FFFF;/*HoneyDew*/
+}
+.work h2 {
+	margin-bottom:0px;
+}
+.work h3 {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.work h4 {
+	font-size:12px;
+	margin-top:0px;
+}
+
+.projects {
+	background:#FFFFFF;/*#F5FFFA;/*MintCream*/
+}
+.education {
+	background:#FFFFFF;/*#F0F8FF;/*LavenderBlush*/
+}
+.image-resize {
+	width:300px;
+	float:left;
+}
+.column-width {
+	max-width:950px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.content-wrap {
+	max-width:950px;
+	margin:0 auto;
+	padding:50px;
+	overflow: hidden;
+}
+.column-narrow {
+	width:35%;
+	min-height:175px;
+	padding-right:3%;
+	float:left;
+	overflow:auto;
+}
+.column-wide {
+	width:62%;
+	min-height:175px;
+	float:left;
+}
