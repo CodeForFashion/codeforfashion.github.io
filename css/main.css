@@ -3280,3 +3280,12 @@ footer ul li {
 #cForm {
 	margin-top: 3.6rem;
 }
+
+.margin {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.desc {
+    padding-left: 2em;
+    padding-right: 2em;
+}
